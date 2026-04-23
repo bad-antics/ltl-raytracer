@@ -1,0 +1,15 @@
+// ltl-raytracer/main.ltl
+//
+// Whitted-style ray tracer with spheres, planes, lights.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-raytracer v0.1.0")
+    io::println("Whitted-style ray tracer with spheres, planes, lights.")
+    0
+}
